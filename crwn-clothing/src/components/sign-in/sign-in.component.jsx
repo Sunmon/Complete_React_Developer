@@ -24,8 +24,6 @@ class SignIn extends Component {
     } catch (error) {
       console.error(error);
     }
-
-    this.setState({ email: '', password: '' });
   };
 
   handleChange = event => {
